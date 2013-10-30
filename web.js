@@ -5,7 +5,7 @@ app.use(express.logger());
 
 app.get('/', function(request, response) {
   //response.send('Hello, there.');
-    var htmlFile = fs.readFileSync('./pages/new-template/stylish-portfolio.html');
+    var htmlFile = fs.readFileSync('./pages/stylish-portfolio.html');
     response.send(htmlFile.toString());   
 });
 
