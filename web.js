@@ -1,15 +1,22 @@
 var express = require('express');
+var path  = require('path');
 var app = express();
 var fs = require('fs');
+var htmlFile = './pages/stylish-portfolio.html'
+
+// Log requests
 app.use(express.logger());
+
+//Serve static files
+app.use(express.static(path.join(__dirname, 'pages')));
 
 app.get('/', function(request, response) {
   //response.send('Hello, there.');
-    var htmlFile = fs.readFileSync('./pages/stylish-portfolio.html');
-    response.send(htmlFile.toString());   
+    var html = fs.readFileSync(htmlFile).toString();
+    response.send(html);   
 });
 
-var port = process.env.PORT || 5000;
+var port = process.env.PORT || 8080;
 app.listen(port, function() {
   console.log("Listening on " + port);
 });
