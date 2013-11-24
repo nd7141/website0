@@ -2,13 +2,13 @@ var express = require('express');
 var path  = require('path');
 var app = express();
 var fs = require('fs');
-var htmlFile = './modern-business/index.html'
+var htmlFile = './public/index.html'
 
 // Log requests
 app.use(express.logger());
 
 //Serve static files
-app.use(express.static(path.join(__dirname, 'modern-business')));
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', function(request, response) {
   //response.send('Hello, there.');
@@ -20,5 +20,3 @@ var port = process.env.PORT || 8080;
 app.listen(port, function() {
   console.log("Listening on " + port);
 });
-
-// Hello to github
