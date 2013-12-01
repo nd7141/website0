@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>About - Modern Business - Start Bootstrap Template</title>
+    <title>Лаборатория Инженерного Дизайна Карфидов Лаб</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -14,61 +14,45 @@
     <!-- Add custom CSS here -->
     <link href="css/modern-business.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/responsive-video.css" rel="stylesheet">
+    <!-- Add google fonts-->
+    <!--link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans&text=Карфидов%20Лаб"-->
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans|Lobster&subset=cyrillic">
   </head>
-
   <body>
 
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
-        <div class="navbar-header">
+        <div class="navbar-header" style="font-family: 'Lobster', 'Open Sans', serif;">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Modern Business</a>
+          <!-- You'll want to use a responsive image option so this logo looks good on devices - I recommend using something like retina.js (do a quick Google search for it and you'll find it) -->
+          <a class="navbar-brand" href="index.html">Карфидов Лаб</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="about.html">О нас</a></li>
-            <li><a href="services.html">Услуги</a></li>
-            <li><a href="contact.php">Контакты</a></li>
+            <li><a href="services.html"><i class="fa fa-folder-open"></i> Портфолио</a></li>
+            <li><a href="pricing.html"><i class="fa fa-sitemap"></i> Услуги</a></li>
+	    <li><a href="about.html"><i class="fa fa-group"></i> О нас</a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Портфолио <b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-calendar"></i> Блог<b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="portfolio-1-col.html">Убрать</a></li>
-                <li><a href="portfolio-2-col.html">Убрать</a></li>
-                <li><a href="portfolio-3-col.html">Убрать</a></li>
-                <li><a href="portfolio-4-col.html">Убрать</a></li>
-                <li><a href="portfolio-item.html">Убрать</a></li>
+                <li><a href="blog-home-1.html">Blog Home 1</a></li>
+                <li><a href="blog-home-2.html">Blog Home 2</a></li>
+                <li><a href="blog-post.html">Blog Post</a></li>
               </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><Блог <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="blog-home-1.html">Убрать</a></li>
-                <li><a href="blog-home-2.html">Убрать</a></li>
-                <li><a href="blog-post.html">Убрать</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Убрать этот раздел <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="full-width.html">Full Width Page</a></li>
-                <li><a href="sidebar.html">Sidebar Page</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="404.html">404</a></li>
-                <li><a href="pricing.html">Pricing Table</a></li>
-              </ul>
-            </li>
+            </li>            
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container -->
     </nav>
-
+  
     <div class="container">
 
       <div class="row">
@@ -214,18 +198,42 @@
 
     </div><!-- /.container -->
 
+    <!-- Google Map -->
     <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-8">
+          <iframe width="500" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Russia,+Moscow,+Biblioteka+imeni+Lenina&amp;aq=0&amp;oq=biblioteka+imeni+&amp;sll=37.0625,-95.677068&amp;sspn=42.495706,69.785156&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;ll=55.752252,37.610493&amp;spn=0.006295,0.006295&amp;t=m&amp;output=embed"></iframe>
+    	</div>
+    	
+      	<div class="col-lg-4 col-md-4">
+    	  <h2>Карфидов Лаб</h2>
+    	  <address>
+    	    <strong>Контакты:</strong><br>
+    	    100 Новая ул.<br>
+    	    Сколково<br>
+    	    Москва<br>
+    	    Россия<br>
+    	    313321<br>
+    	    <i class="fa fa-phone"></i> 01234 567 890
+    	  </address>
+    	</div>
+      </div>
+    </div> <!-- End of Google Map -->
 
+    <div class="container">
       <hr>
-
       <footer>
         <div class="row">
           <div class="col-lg-12">
-            <p>Copyright &copy; Company 2013</p>
+            <p>Copyright &copy; Карфидов Лаб 2011-2013</p>
+          </div>
+        </div>
+	<div class="row">
+          <div class="col-lg-12">
+            <p>100 Новая ул., Сколково, Москва</p>
           </div>
         </div>
       </footer>
-
     </div><!-- /.container -->
 
     <!-- Bootstrap core JavaScript -->
