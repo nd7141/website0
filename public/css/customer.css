@@ -1,0 +1,21 @@
+/* 
+Customized CSS. 
+* Put everything you want to change in style here, 
+* it will overwrite bootstrap customs, if necessary.
+*/
+
+.carousel-text {
+	color: black;
+}
+
+.section-colored {
+  background-color: #3487FF; /* change this to change the background color of a colored section */
+}
+
+.font1 {
+	font-family: 'Lobster', 'Open Sans', serif;
+}
+
+.font2 {
+	font-family: 'PT Serif', 'Open Sans', serif;
+}

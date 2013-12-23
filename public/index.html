@@ -17,14 +17,15 @@
     <link href="css/responsive-video.css" rel="stylesheet">
     <!-- Add google fonts-->
     <!--link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans&text=Карфидов%20Лаб"-->
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans|Lobster&subset=cyrillic">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans|Lobster|PT+Serif&subset=cyrillic">
+    <link href="css/customer.css" rel="stylesheet">
   </head>
   
   <body>
 
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
-        <div class="navbar-header" style="font-family: 'Lobster', 'Open Sans', serif;">
+        <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
@@ -32,16 +33,16 @@
             <span class="icon-bar"></span>
           </button>
           <!-- You'll want to use a responsive image option so this logo looks good on devices - I recommend using something like retina.js (do a quick Google search for it and you'll find it) -->
-          <a class="navbar-brand" href="index.html">Карфидов Лаб</a>
+          <a class="navbar-brand font1" href="index.html">Карфидов Лаб</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
-          <ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav navbar-right font2">
             <li><a href="portfolio.html">Портфолио</a></li>
             <li><a href="services.html">Услуги</a></li>
 	    <li><a href="about.html">О нас</a></li>
-            <li><a href="services.html">Блог</a></li>           
+            <li><a href="blog.html">Блог</a></li>           
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container -->
@@ -60,19 +61,19 @@
           <div class="item active">
             <div class="fill" style="background-image:url('Pics/Carousel1.jpg');"></div>
             <div class="carousel-caption">
-              <h1>Проектирование и Разработка Промышленных Изделий</h1>
+              <h1 class="carousel-text font2">Проектирование и Разработка Промышленных Изделий</h1>
             </div>
           </div>
           <div class="item">
             <div class="fill" style="background-image:url('Pics/Carousel2.jpg');"></div>
             <div class="carousel-caption">
-              <h1>Составление Конструкторской Документации</h1>
+              <h1 class="carousel-text font2">Составление Конструкторской Документации</h1>
             </div>
           </div>
           <div class="item">
             <div class="fill" style="background-image:url('Pics/Carousel3.jpg');"></div>
             <div class="carousel-caption">
-              <h1>Помощь на Всем Процессе Производства</h1>
+              <h1 class="carousel-text font2">Помощь на Всем Процессе Производства</h1>
             </div>
           </div>
         </div>
@@ -92,15 +93,15 @@
 
         <div class="row">
           <div class="col-lg-4 col-md-4">
-            <h3>Промышленный дизайн</h3>
+            <h3 class="font2">Промышленный дизайн</h3>
             <p>Создание по-настоящему удобных, стильных и эргономичных изделий со свежим взглядом. Переосмысление Вашего продукта со всех точек зрения.</p>
           </div>
           <div class="col-lg-4 col-md-4">
-            <h3>Технические разработки и документация</h3>
+            <h3 class="font2">Технические разработки и документация</h3>
             <p>Разработка чертежей, рабочей конструкторской документации, отчетностей в соответствии с ЕСКД и ГОСТ. Технические рассчеты и анализ.</p>
           </div>
           <div class="col-lg-4 col-md-4">
-            <h3>Сопровождение производства</h3>
+            <h3 class="font2">Сопровождение производства</h3>
             <p>Помощь на всем отрезке от идеи до реализации.</p>
           </div>
         </div><!-- /.row -->
@@ -117,7 +118,7 @@
           <div class="col-lg-12">
             <h2>Лаборатория Инженерного Дизайна Карфидов Лаб</h2>
             <p>Соединяя технологии и искусство</p>
-            <hr>
+            <!--hr-->
           </div>
         </div><!-- /.row -->
 
@@ -165,7 +166,7 @@
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-6">
             <h2>Процесс инженерного дизайна</h2>
-            <h1>В этом видео показывается общая картина инженерного дизайна.</h1>
+            <h4>В этом видео показывается общая картина инженерного дизайна.</h4>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-6">
             <!--img class="img-responsive" src="http://placehold.it/700x450/ffffff/cccccc"-->
@@ -183,14 +184,12 @@
       <div class="container">
 
         <div class="row">
-          <!--div class="col-lg-6 col-md-6 col-sm-6">
-            <img class="img-responsive" src="http://placehold.it/700x450">
-          </div-->
-          <div class="flex-video widescreen"><iframe width="800" height="450" src="//www.youtube.com/embed/8mU2kDEDyEA" frameborder="0" allowfullscreen></iframe></div>
-          
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="flex-video widescreen"><iframe width="560" height="315" src="//www.youtube.com/embed/8mU2kDEDyEA" frameborder="0" allowfullscreen></iframe></div>
+          </div>
           <div class="col-lg-6 col-md-6 col-sm-6">
             <h2>Первый дизайн</h2>
-            <h1>Основные трудности, связанные с процессом дизайна.</h1>
+            <h4>Основные трудности, связанные с процессом дизайна.</h4>
           </div>
         </div><!-- /.row -->
 
