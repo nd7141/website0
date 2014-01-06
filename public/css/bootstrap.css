@@ -4185,7 +4185,14 @@ textarea.input-group-sm > .input-group-btn > .btn {
   float: left;
   padding: 15px 15px;
   font-size: 18px;
-  line-height: 20px;
+  line-height: 15px;
+  /*text-align: center;*/
+  /*color: red !important;*/
+  /*add picture to navbar brand
+  found in http://stackoverflow.com/questions/9893723/twitter-bootstrap-logo-image-on-top-of-navbar*/
+  /*background: url(Pics/logo.jpg) no-repeat left center;
+  height: 50px;
+  width: 137px;*/
 }
 
 .navbar-brand:hover,

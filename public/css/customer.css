@@ -19,3 +19,12 @@ Customized CSS.
 .font2 {
 	font-family: 'PT Serif', 'Open Sans', serif;
 }
+
+.font3 {
+	/* without !important doesn't work:
+	solution found here: http://stackoverflow.com/questions/16625972/change-color-of-bootstrap-navbar-on-hover-link*/
+	
+	color: red !important;
+	text-align: center;
+	font-size: 20 !important;
+}
