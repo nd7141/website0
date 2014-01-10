@@ -17,14 +17,14 @@ Customized CSS.
 }
 
 .font2 {
-	font-family: 'Lora', 'PT Serif', 'Open Sans', serif;
+	font-family: 'Lato', 'Open Sans',serif;
 }
 
 .logo {
 	/* without !important doesn't work:
 	solution found here: http://stackoverflow.com/questions/16625972/change-color-of-bootstrap-navbar-on-hover-link*/
 	
-	font-family: 'Ubuntu', 'Open Sans', serif;	
+	font-family: 'Droid Sans', 'Ubuntu', 'Open Sans', serif;	
 	color: red !important;
 	text-align: center;
 	font-size: 20 !important;
