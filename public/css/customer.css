@@ -4,10 +4,6 @@ Customized CSS.
 * it will overwrite bootstrap customs, if necessary.
 */
 
-.carousel-text {
-	color: black;
-}
-
 .section-colored {
   background-color: #777777; /* change this to change the background color of a colored section */
 }
