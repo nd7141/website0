@@ -30,3 +30,7 @@ Customized CSS.
 	width: 60%;
 	height: auto;
 }
+
+.top-buffer {
+    margin-top: 40px;
+}
