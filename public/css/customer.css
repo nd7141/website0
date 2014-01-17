@@ -34,3 +34,7 @@ Customized CSS.
 .top-buffer {
     margin-top: 40px;
 }
+
+.navbar-custom {
+	line-height: 15px;	
+}
