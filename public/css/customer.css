@@ -13,14 +13,14 @@ Customized CSS.
 }
 
 .font2 {
-	font-family: 'Lato', 'Open Sans',serif;
+	font-family: 'Droid Sans', 'Open Sans', serif;
 }
 
 .logo {
 	/* without !important doesn't work:
 	solution found here: http://stackoverflow.com/questions/16625972/change-color-of-bootstrap-navbar-on-hover-link*/
 	
-	font-family: 'Droid Sans', 'Ubuntu', 'Open Sans', serif;	
+	font-family: 'Droid Sans', 'Ubuntu', serif;
 	color: red !important;
 	text-align: center;
 	font-size: 20 !important;
@@ -32,9 +32,9 @@ Customized CSS.
 }
 
 .top-buffer {
-    margin-top: 40px;
+    margin-top: 5%;
 }
 
 .navbar-custom {
-	line-height: 15px;	
+    line-height: 85%;
 }
