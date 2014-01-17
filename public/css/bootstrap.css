@@ -28,7 +28,7 @@ summary {
 
 audio,
 canvas,
-video {
+video {L
   display: inline-block;
 }
 
@@ -4185,7 +4185,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   float: left;
   padding: 15px 15px;
   font-size: 18px;
-  line-height: 15px;
+  line-height: 20px;
   /*text-align: center;*/
   /*color: red !important;*/
   /*add picture to navbar brand
