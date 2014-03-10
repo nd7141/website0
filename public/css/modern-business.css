@@ -2,10 +2,6 @@
 Custom CSS for...
 'Modern Business' HTML Theme by Start Bootstrap
 
-All Start Bootstrap themes are licensed under Apache 2.0. 
-For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap.com!
-*/
-
 /* Global Styles */
 
 html, body {
@@ -127,4 +123,71 @@ footer {
   height: 70%; /* increases the carousel height so it looks good on phones */
 }
 
+}
+
+/* Make youtube video responsive */
+.flex-video {
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 67.5%;
+    height: 0;
+    margin-bottom: 16px;
+    overflow: hidden;
+}
+
+.flex-video.widescreen { padding-bottom: 57.25%; }
+.flex-video.vimeo { padding-top: 0; }
+
+.flex-video iframe,
+.flex-video object,
+.flex-video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {
+    .flex-video { padding-top: 0; }
+}
+
+/*
+Customized CSS.
+* Put everything you want to change in style here,
+* it will overwrite bootstrap customs, if necessary.
+*/
+
+.section-colored {
+    background-color: #777777; /* change this to change the background color of a colored section */
+}
+
+.font1 {
+    font-family: 'Ubuntu', 'Open Sans', serif;
+}
+
+.font2 {
+    font-family: 'Droid Sans', 'Open Sans', serif;
+}
+
+.logo {
+    /* without !important doesn't work:
+    solution found here: http://stackoverflow.com/questions/16625972/change-color-of-bootstrap-navbar-on-hover-link*/
+
+    font-family: 'Droid Sans', 'Ubuntu', serif;
+    color: red !important;
+    text-align: center;
+    font-size: 20 !important;
+}
+
+.img-team {
+    width: 60%;
+    height: auto;
+}
+
+.top-buffer {
+    margin-top: 5%;
+}
+
+.navbar-custom {
+    line-height: 85%;
 }

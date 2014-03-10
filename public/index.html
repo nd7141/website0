@@ -9,17 +9,17 @@
     <title>Лаборатория Инженерного Дизайна Карфидов Лаб</title>
     <!-- Bootstrap core CSS -->
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <!--link href="css/bootstrap.css" rel="stylesheet"-->
 
     <!-- Add custom CSS here -->
     <link href="css/modern-business.css" rel="stylesheet">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
     <!--link href="font-awesome/css/font-awesome.min.css" rel="stylesheet"-->
-    <link href="css/responsive-video.css" rel="stylesheet">
+    <!--link href="css/responsive-video.css" rel="stylesheet"-->
     <!-- Add google fonts here-->
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans|Droid+Sans&subset=cyrillic">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu&subset=latin,cyrillic">
-    <link href="css/customer.css" rel="stylesheet">
+    <!--link href="css/customer.css" rel="stylesheet"-->
     <!--link rel="shortcut icon" href="favicon.ico" /-->
     <link rel="icon" type="image/gif" href="favicon.gif" />
     <!-- Add google analytics -->
@@ -140,22 +140,22 @@
             <hr>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-6">
-            <a href="portfolio-item1.html"><img class="img-responsive img-home-portfolio" src="Pics/portfolio1.jpg"></a>
+            <a href="portfolio-item1.html"><img class="img-responsive img-home-portfolio" src="Pics/portfolio1_compressed.jpg"></a>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-6">
-            <a href="portfolio-item2.html"><img class="img-responsive img-home-portfolio" src="Pics/portfolio2.png"></a>
+            <a href="portfolio-item2.html"><img class="img-responsive img-home-portfolio" src="Pics/portfolio2_compressed.png"></a>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-6">
-            <a href="portfolio-item3.html"><img class="img-responsive img-home-portfolio" src="Pics/portfolio3.jpg"></a>
+            <a href="portfolio-item3.html"><img class="img-responsive img-home-portfolio" src="Pics/portfolio3_compressed.jpg"></a>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-6">
-            <a href="portfolio-item4.html"><img class="img-responsive img-home-portfolio" src="Pics/portfolio4.jpg"></a>
+            <a href="portfolio-item4.html"><img class="img-responsive img-home-portfolio" src="Pics/portfolio4_compressed.jpg"></a>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-6">
-            <a href="portfolio-item5.html"><img class="img-responsive img-home-portfolio" src="Pics/portfolio5.jpg"></a>
+            <a href="portfolio-item5.html"><img class="img-responsive img-home-portfolio" src="Pics/portfolio5_compressed.jpg"></a>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-6">
-            <a href="portfolio-item6.html"><img class="img-responsive img-home-portfolio" src="Pics/portfolio6.jpg"></a>
+            <a href="portfolio-item6.html"><img class="img-responsive img-home-portfolio" src="Pics/portfolio6_compressed.jpg"></a>
           </div>
         </div><!-- /.row -->
 
@@ -226,7 +226,18 @@
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
     <!--script src="js/bootstrap.js"></script-->
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-    <script src="js/modern-business.js"></script>
+    <!-- Javascript for Modern business template -->
+    <script>
+        // Activates the Carousel
+        $('.carousel').carousel({
+            interval: 5000
+        })
+
+        // Activates Tooltips for Social Links
+        $('.tooltip-social').tooltip({
+            selector: "a[data-toggle=tooltip]"
+        })
+    </script>
     <!-- Additional google analytics code -->
     <script src="js/analytics.js"></script>
   </body>
